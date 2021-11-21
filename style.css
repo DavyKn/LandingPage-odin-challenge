@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navigation-bar {
+    background-color: #1f2937;  
+}
+
+.navigation-bar ul {
+    list-style: none;
+    overflow: hidden;
+    
+}
+
+.navigation-bar li {
+    float: right;
+    margin: 30px;
+}
+
+.navigation-bar .logo {
+    float: left;
+    font-style: italic; 
+    color:  #fff;
+    
+}
+
+
+
+.navigation-bar li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.first-container {
+    display: flex;
+    background-color: tomato;
+    align-items: center;
+    background-color: #1f2937; 
+      
+                
+}
+
+.left-side {
+   flex: 1;
+   /* border-style: solid;
+   border-color: #fff; */
+   margin-left: 160px;
+   text-align: left;
+}
+
+.left-side h1 {
+    color: #fff;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 5px;
+}
+.left-side p {
+    color: #fff;
+    font-size: 1.5rem ;
+    line-height: 1.5rem ;
+    font-style: italic;
+    margin-bottom: 5px;
+    
+}
+
+.left-side button {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.right-side {
+    flex: 1;
+    margin:40px 60px 40px 10px;
+
+}
+
+#third {
+    background-color:#fff;
+    text-align: center;
+
+} 
+
+#third p {
+    padding: 40px;
+    color: black;
+    font-weight: 100;
+    font-size: 1.5rem ;
+    line-height: 1.5rem ;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 60px;
+   
+    
+}
+
+ .info {
+    
+    margin-bottom: 60px;  
+    
+}
+.info h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.info img {
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+     background-color: #E5E7EB;
+     padding:60px;
+}
+.third-container p{
+    font-size: 2.25rem;
+    text-align: left;
+    margin-bottom: 50px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.btn-case {
+    display: flex;
+    background-color: #3882F6;
+    margin:  100px 250px;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+
+
+.buttoncase {
+    display: flex;
+    flex-direction: column;
+    text-align:left ;
+    margin-left: 150px;
+    padding-left: 20px;
+    
+       
+}
+
+
+
+.signup2 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 30px;
+    align-items: center;
+    outline: none;
+    
+}
+
+.signup2 button {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    
+}
+
+footer {
+    color: #fff;
+    margin-bottom: auto;
+    padding: 20px;
+    height: auto;
+    background-color: #1f2937; 
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+
+
+
+
+    
+    
+
+
+
+
+
+
+
